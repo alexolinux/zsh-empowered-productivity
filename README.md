@@ -1,6 +1,6 @@
 # zsh-empowered-productivity 🚀
 
-ZSH: The Catalyst for Elevated Productivity
+Enhancing Productivity with ZSH
 
 -------------------------------------------
 
