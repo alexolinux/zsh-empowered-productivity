@@ -38,9 +38,9 @@ GROUP_NAME="my-custom-group"
 
 1. Clone the repository:
 
-   ```shell
-   git clone https://github.com/alexolinux/zsh-empowered-productivity.git
-   ```
+  ```shell
+  git clone https://github.com/alexolinux/zsh-empowered-productivity.git
+  ```
 
 2. Go to the project folder and add execution permissions to the setup script:
 
@@ -51,9 +51,9 @@ GROUP_NAME="my-custom-group"
 
 3. Run the installer:
 
-```shell
-./install.sh
-```
+  ```shell
+  ./install.sh
+  ```
 
 4. Restart your terminal to enjoy your new ZSH environment.
 
