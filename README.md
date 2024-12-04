@@ -32,6 +32,31 @@ Featuring:
 GROUP_NAME="my-custom-group"
 ```
 
+## System Compatibility
+
+This script is designed to work on the following operating systems:
+
+### Supported Operating Systems
+
+1. **Linux Distributions:**
+   - Ubuntu/Debian-based systems (`apt`)
+   - RHEL/CentOS (`yum`)
+   - Fedora (`dnf`)
+
+   _Note: DevOps group creation and sudo management are only available on Linux._
+
+2. **macOS:**
+   - Compatible with macOS versions that support [Homebrew](https://brew.sh).
+
+### Requirements
+
+- **Linux:**
+  - A `sudo`-enabled user account.
+  - Internet connection for installing dependencies.
+  
+- **macOS:**
+  - Homebrew installed (or the script will install it for you).
+
 -------------------------------------------
 
 ## Installation
