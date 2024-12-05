@@ -16,7 +16,7 @@ Featuring:
 
 ### ZSH Environment Setup
 
-- Automatically installs and configures ZSH and Oh My Zsh.
+- Automatically installs and configures ZSH and **[Oh My Zsh](https://ohmyz.sh/)**.
 - Adds useful plugins and themes.
 - Sets up a custom `zshrc` file for an optimal developer experience.
 
@@ -81,6 +81,22 @@ This script is designed to work on the following operating systems:
   ```
 
 4. Restart your terminal to enjoy your new ZSH environment.
+
+## Extra Tips
+
+If you (just like me :) ) are a frequent user of `kubectl` for managing and controlling Kubernetes environments, this section provides a script to add my favorite ZSH Plugins for **K8s**:
+
+* kubectl
+* kube-aliases
+* kubectl-autocomplete
+
+*Install them and notice the difference! ;) *
+
+## References
+
+* [ZSH](https://wiki.zshell.dev/docs/code)
+* [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki)
+* [Oh My Zsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/plugins)
 
 ## Author: Alex Mendes
 
