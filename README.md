@@ -94,7 +94,7 @@ Here is the link to the Script: [kube-env.sh](https://gist.github.com/alexolinux
 
   _Note: Follow the same process as the Installation Section above._
 
-*Install them and notice the difference! ;) *
+*Install them and notice the difference! ;)*
 
 ## References
 
