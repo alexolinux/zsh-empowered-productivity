@@ -92,7 +92,7 @@ If you (just like me :) ) are a frequent user of `kubectl` for managing and cont
 
 Here is the link to the Script: [kube-env.sh](https://gist.github.com/alexolinux/12e41c6df5c78f745f65b438ce6e0c73)
 
-  _Note: Follow the same process as the Installation Section above.
+  _Note: Follow the same process as the Installation Section above._
 
 *Install them and notice the difference! ;) *
 
