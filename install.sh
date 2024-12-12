@@ -115,7 +115,7 @@ if [[ "$OS_TYPE" == "Linux" ]]; then
     if [ -e "$GROUP_SUDO" ]; then
         echo "The file $GROUP_SUDO exists."
     else
-        echo "%devops ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/devops
+        echo "%devops ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/devops
         echo "Sudo has been applied for the $GROUP_NAME group."
     fi
 fi
