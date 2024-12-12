@@ -1,4 +1,4 @@
-# zsh-empowered-productivity 🚀
+# [WIP] zsh-empowered-productivity 🚀
 
 Enhancing Productivity with ZSH
 
