@@ -30,6 +30,7 @@ Featuring:
 
 - git
 - curl
+- chsh (`passwd` on Debian/Ubuntu | `util-linux` on RHEL based Distros)
 
 -------------------------------------------
 
