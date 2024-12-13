@@ -54,13 +54,21 @@ Featuring:
   ./install.sh
   ```
 
-4. You must reload you SHELL Session an use `zsh` as default SHELL:
+**Note:** After migrating to **PowerLevel10K**, a wizard will appear with steps to customize your new environment. Please make your selections according to your preferences.
+
+## Set ZSH as Default Shell
+
+To ensure that ZSH is set as your default shell, follow the instructions below.
+
+### Instructions
+
+1. **Open your terminal.**
+
+2. **Set ZSH as your default shell:**
 
 ```shell
-zsh
+chsh -s $(which zsh)
 ```
-
-**NOTE:** After migrating to **PowerLevel10K**, a wizard will appear with steps to customize your new environment. Please make your selections according to your preferences. 
 
 ## Extra Tips
 
