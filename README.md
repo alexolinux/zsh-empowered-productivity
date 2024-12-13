@@ -1,4 +1,4 @@
-# [WIP] zsh-empowered-productivity 🚀
+# zsh-empowered-productivity 🚀
 
 Enhancing Productivity with ZSH
 
@@ -17,45 +17,19 @@ Featuring:
 ### ZSH Environment Setup
 
 - Automatically installs and configures ZSH and **[Oh My Zsh](https://ohmyz.sh/)**.
-- Adds useful plugins and themes.
+- Adds useful plugins and PowerLevel10K Theme.
 - Sets up a custom `zshrc` file for an optimal developer experience.
-
-### DevOps Group Management (Linux Only)
-
-- Creates a `devops` user group (if it doesn't already exist).
-- Adds the current user to the `devops` group.
-- Grants passwordless `sudo` privileges to the `devops` group by modifying `/etc/sudoers.d`.
-
-| Feel free to change the group to be used in the script `GROUP_NAME`:
-
-```shell
-GROUP_NAME="my-custom-group"
-```
 
 ## System Compatibility
 
-This script is designed to work on the following operating systems:
-
-### Supported Operating Systems
-
-1. **Linux Distributions:**
-   - Ubuntu/Debian-based systems (`apt`)
-   - RHEL/CentOS (`yum`)
-   - Fedora (`dnf`)
-
-   _Note: DevOps group creation and sudo management are only available on Linux._
-
-2. **macOS:**
-   - Compatible with macOS versions that support [Homebrew](https://brew.sh).
+*This script is designed to work on ZSH Shell Environment*
 
 ### Requirements
 
-- **Linux:**
-  - A `sudo`-enabled user account.
-  - Internet connection for installing dependencies.
-  
-- **macOS:**
-  - Homebrew installed (or the script will install it for you).
+**Packages**
+
+- git
+- curl
 
 -------------------------------------------
 
@@ -80,7 +54,13 @@ This script is designed to work on the following operating systems:
   ./install.sh
   ```
 
-4. Restart your terminal to enjoy your new ZSH environment.
+4. You must reload you SHELL Session an use `zsh` as default SHELL:
+
+```shell
+zsh
+```
+
+**NOTE:** After migrating to **PowerLevel10K**, a wizard will appear with steps to customize your new environment. Please make your selections according to your preferences. 
 
 ## Extra Tips
 
@@ -100,9 +80,9 @@ Here is the link to the Script: [kube-env.sh](https://gist.github.com/alexolinux
 
 * [ZSH](https://wiki.zshell.dev/docs/code)
 * [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki)
+* [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 * [Oh My Zsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/plugins)
 
 ## Author: Alex Mendes
 
 <https://www.linkedin.com/in/mendesalex>
-
