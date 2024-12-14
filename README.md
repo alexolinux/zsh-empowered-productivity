@@ -76,20 +76,6 @@ To ensure that ZSH is set as your default shell, follow the instructions below.
 chsh -s $(which zsh)
 ```
 
-## Extra Tips
-
-If you (just like me :) ) are a frequent user of `kubectl` for managing and controlling Kubernetes environments, this section provides a script to add my favorite ZSH Plugins for **K8s**:
-
-* kubectl
-* kube-aliases
-* kubectl-autocomplete
-
-Here is the link to the Script: [kube-env.sh](https://gist.github.com/alexolinux/12e41c6df5c78f745f65b438ce6e0c73)
-
-  _Note: Follow the same process as the Installation Section above._
-
-*Install them and notice the difference! ;)*
-
 ## References
 
 * [ZSH](https://wiki.zshell.dev/docs/code)
