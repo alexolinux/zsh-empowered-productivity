@@ -53,6 +53,12 @@ Featuring:
   ```shell
   ./install.sh
   ```
+4. Reload SHELL:
+
+  ```shell
+  source ~/.zshrc
+  ```
+  *Or close and reopen your Terminal.*
 
 **Note:** After migrating to **PowerLevel10K**, a wizard will appear with steps to customize your new environment. Please make your selections according to your preferences.
 
