@@ -46,7 +46,6 @@ Featuring:
 
   ```shell
   cd zsh-empowered-productivity
-  chmod +x install.sh
   ```
 
 3. Run the installer:
