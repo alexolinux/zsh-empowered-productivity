@@ -36,15 +36,20 @@ clear && echo "#-- ----------|| ZSH SHELL Configuration ||---------- --#"
 
 install_zsh
 
-if command -v chsh &> /dev/null; then    
-    echo "Changing user SHELL to ZSH using chsh..."
-    zsh_path=$(command -v zsh)
-    sudo chsh -s "$zsh_path" "$USER"
+if [[ "$SHELL" != "$(command -v zsh)" ]]; then
+    if command -v chsh &> /dev/null; then
+        echo "Changing user SHELL to ZSH using chsh..."
+        zsh_path=$(command -v zsh)
+        sudo chsh -s "$zsh_path" "$USER"
+        check_comm
+    else
+        echo "Warning: chsh command not found. Please ensure Zsh is set as your default shell manually."
+    fi
 else
-    echo "Failed to change User SHELL. Check if ZSH is available."
-    exit 1
+    echo "Your current shell is already Zsh."
 fi
 
+########
 echo "Checking OHMyZSH Installation..."
 if [ ! -d "${OH_MYZSH}" ]; then
     echo "Installing OHMyZSH..."
