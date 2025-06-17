@@ -56,6 +56,10 @@ Featuring:
 4. Reload SHELL:
 
   ```shell
+  exec zsh
+  ```
+  Or
+  ```shell
   source ~/.zshrc
   ```
   *Or close and reopen your Terminal.*
