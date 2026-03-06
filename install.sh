@@ -23,7 +23,8 @@ install_zsh() {
         if [ -f "/etc/debian_version" ]; then
             sudo apt update && sudo apt install -y zsh
         elif [ -f "/etc/redhat-release" ]; then
-            sudo yum install -y zsh
+            PACKAGE_MANAGER=$(command -v dnf 2>/dev/null || command -v yum)
+            sudo $PACKAGE_MANAGER install -y zsh
         else
             echo "Unsupported distribution. Please install Zsh manually."
             exit 1
